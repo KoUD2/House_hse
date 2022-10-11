@@ -1,0 +1,83 @@
+section div {
+  display: inline-block;
+  width: 49.8%;
+  overflow: hidden;
+  vertical-align: top;
+  margin-bottom: 50px;
+}
+
+section h2,
+section p {
+  margin: 0 auto 0 17.2%;
+  width: 590px;
+}
+section h2 {
+  font-size: 36px;
+  line-height: 45px;
+  margin-top: 125px;
+  margin-bottom: 26px;
+}
+section p {
+  line-height: 39px;
+  font-size: 26px;
+}
+
+section div:nth-child(even) img {
+  padding: 80px 0 0 40px;
+}
+
+section:nth-of-type(2) div:nth-of-type(2) {
+  margin: -86px 0 0 -79px;
+}
+
+section:nth-of-type(3) div:nth-of-type(1) {
+  margin: -51px 0 0 -1px;
+}
+
+.bottom_block {
+  text-align: center;
+}
+
+.bottom_block h2,
+.bottom_block p {
+  margin: 83 auto;
+  width: 957px;
+}
+
+.bottom_block a {
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 6px;
+  margin: 84px 4px 230px 13px;
+}
+
+.btn {
+  color: white;
+  background: black;
+  padding: 16px 59px;
+}
+
+.btn1{
+  padding: 16px 34px;
+}
+
+.h2 {
+  margin-top: 124px;
+  margin-bottom: 23px;
+}
+
+.h2_1 {
+  margin-bottom: 23px;
+}
+
+.h2_2 {
+  margin-top: 79px;
+  line-height: 46px;
+  margin-bottom: 23px;
+}
+
+.p1 {
+  line-height: 38px;
+}
