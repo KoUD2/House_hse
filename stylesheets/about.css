@@ -1,3 +1,29 @@
+/* html {
+  background: grey;
+  display: block;
+  height: 100%;
+} */
+
+.all_about {
+  height: 3252px;
+  width: 1440px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background: white;
+}
+
+.all_about::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url(images/1440/.jpg);
+  opacity: .3;
+}
+
 section div {
   display: inline-block;
   width: 49.8%;

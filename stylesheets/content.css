@@ -1,4 +1,4 @@
-article h1, article h4, article ol, article h2, article h3, article p, article ul, article blockquote {
+article > * {
   width: 700px;
   margin: 0 auto;
 }
@@ -7,7 +7,7 @@ article h1, article h2, article h3, article h4 {
 }
 article h1 {
   margin-top: 67px;
-  font-size: 38px; 
+  font-size: 38px;
   line-height: 45px;
 }
 article h1 + p {
@@ -88,4 +88,14 @@ article ul {
 }
 article ol {
   list-style-type: decimal;
+}
+
+#Gin {
+  height: 500px;
+  width: auto;
+}
+
+.without {
+  list-style-type: none;
+  font-weight: bold;
 }
